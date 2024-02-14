@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save HTML Response</title>
+</head>
+<body>
+    <textarea id="response" rows="10" cols="50"></textarea><br>
+    <button onclick="saveResponse()">Save Response</button>
+    
+    <script>
+        function saveResponse() {
+            var response = document.getElementById('response').value;
+            localStorage.setItem('htmlResponse', response);
+            alert('Response saved!');
+        }
+    </script>
+</body>
+</html>

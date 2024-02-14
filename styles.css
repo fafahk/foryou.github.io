@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pink-background {
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; /* Make it relative for positioning hearts */
+}
+
+h1, p {
+    color: white;
+    text-align: center;
+    z-index: 1; /* Ensure text is above hearts */
+}
+
+/* Heart styles */
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #ff69b4; /* Pink */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    animation: heart-float 2s infinite alternate ease-in-out;
+}
+
+/* Heart animation */
+@keyframes heart-float {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Position hearts randomly */
+.heart:nth-child(1) {
+    top: 10%;
+    left: 15%;
+}
+.heart:nth-child(2) {
+    top: 20%;
+    left: 70%;
+}
+.heart:nth-child(3) {
+    top: 50%;
+    left: 40%;
+}
+/* Add more heart positions as desired */
+.red-heart {
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.love-button {
+    background-color: rgb(129, 25, 145);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.love-button:hover {
+    background-color: #490636; /* Darker shade of red on hover */
+}
+.image-container {
+    width: 60%; /* Adjust container width as needed */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.rescaled-image {
+    width: 50%; /* Set the image width to fill its container */
+    height: 50%; /* Automatically adjust the height to maintain aspect ratio */
+}
+.rectangle {
+    width: 400px; /* Set the width of the rectangle */
+    height: 150px; /* Set the height of the rectangle */
+    background-color: rgb(159, 109, 193); /* Set the background color */
+    padding: 20px; /* Add padding to the rectangle */
+    border: 2px solid #333; /* Add a border to the rectangle */
+    margin-right: 60vh;
+    margin-top: 8vh;
+}
+
+.rectangle p {
+   /* Remove default margin of the paragraph */
+    text-align: justify; /* Align text to justify */
+    font-size: 20px; /* Increase font size */
+}
+.rectanglee {
+    width: 600px; /* Set the width of the rectangle */
+    height: 170px; /* Set the height of the rectangle */
+    background-color: rgb(159, 109, 193); /* Set the background color */
+    padding: 20px; /* Add padding to the rectangle */
+    border: 2px solid #333; /* Add a border to the rectangle */
+    margin-right: 80vh;
+    margin-top: 8vh;
+}
+
+.rectanglee p {
+   /* Remove default margin of the paragraph */
+    text-align: justify; /* Align text to justify */
+    font-size: 40px; /* Increase font size */
+}
+.love-buttonn {
+    background-color: rgb(129, 25, 145);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10vh;
+    margin-left: 45vh;
+}
+.love-button:hover {
+    background-color: #490636; /* Darker shade of red on hover */
+
+}
+.love-buttonnn {
+    background-color: rgb(129, 25, 145);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 12vh;
+    margin-left: 45vh;
+}
+.love-button:hover {
+    background-color: #490636; /* Darker shade of red on hover */
+
+}
+.love-buttonnnn {
+    background-color: rgb(129, 25, 145);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 15vh;
+    margin-left: 45vh;
+}
+.love-button:hover {
+    background-color: #490636; /* Darker shade of red on hover */
+
+}
+.love-buttonnn1 {
+    background-color: rgb(129, 25, 145);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 18vh;
+    margin-left: 45vh;
+}
+.love-button:hover {
+    background-color: #490636; /* Darker shade of red on hover */
+
+}
